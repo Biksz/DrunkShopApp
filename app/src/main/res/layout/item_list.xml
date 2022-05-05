@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/prodImg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:id="@+id/prodTitle"
+                style="@style/ItemDetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prodImg"
+                android:padding="8dp"
+                android:text="@string/prodTitle"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                android:id="@+id/prodSubTitle"
+                style="@style/ItemDetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prodTitle"
+                android:padding="8dp"
+                android:text="@string/prodInfoPlaceholder" />
+
+            <TextView
+                android:id="@+id/drunkMeter"
+                style="@style/ItemDetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prodSubTitle"
+                android:padding="8dp"
+                android:text="@string/drunkRateVal"
+                android:textColor="@android:color/holo_purple" />
+
+            <RatingBar
+                android:id="@+id/killerRate"
+                style="@android:style/Widget.Holo.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/drunkMeter"
+                android:isIndicator="true"
+                android:numStars="6"
+                android:layout_marginStart="8dp"
+                />
+
+
+            <TextView
+                android:id="@+id/prodPrice"
+                style="@style/ItemDetailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/killerRate"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="12dp"
+                android:padding="8dp"
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <Button
+                android:id="@+id/spin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spinMe"
+                android:layout_margin="5dp"
+                android:layout_below="@id/prodPrice"
+                android:layout_centerHorizontal="true"
+                />
+
+            <Button
+                android:id="@+id/addToCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toCart"
+                android:layout_margin="5dp"
+                android:layout_below="@id/spin"
+                android:layout_centerHorizontal="true"
+                />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deleteDrink"
+                android:layout_margin="5dp"
+                android:layout_below="@id/addToCart"
+                android:layout_centerHorizontal="true"
+                />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">DrunkShop</string>
+    <string name="name">Név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Belépés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="username">userName</string>
+    <string name="userName">Felhasználónév</string>
+    <string name="emailAddress">Email cím</string>
+    <string name="email">Email cím</string>
+    <string name="rePassword">Megerősítő jelszó</string>
+    <string name="back">Vissza</string>
+    <string name="telefhone">Telefonszám</string>
+    <string name="address">Rendelés cím</string>
+    <string name="guest">Vendég</string>
+    <string name="productText">Termék leírás</string>
+    <string name="prodInfoPlaceholder">Prod info</string>
+    <string name="toCart">Kosárba</string>
+    <string name="drunkRateVal">Ittasodási valószínűség</string>
+    <string name="prodTitle">Termék név</string>
+    <string name="deleteDrink">Törlés</string>
+    <string name="spinMe">SPIN ME</string>
+    <string-array name="order_types">
+        <item>Várásló</item>
+        <item>Viszonteladó</item>
+    </string-array>
+
+    <string-array name="drink_names">
+        <item>Jagermaister</item>
+        <item>Unicum</item>
+        <item>Bacardi</item>
+        <item>Grants</item>
+        <item>Unicorn Tears</item>
+        <item>Angelli</item>
+        <item>Baileys </item>
+        <item>Bodri Bodrikutya</item>
+        <item>Budweiser</item>
+        <item>DoromBor</item>
+        <item>Eperméz</item>
+        <item>Zubrowka</item>
+        <item>Jack Daniels</item>
+        <item>Malibu</item>
+        <item>Mátyás keserű</item>
+        <item>Monster</item>
+        <item>Sierra</item>
+        <item>Torley</item>
+    </string-array>
+    <string-array name="drink_infos">
+        <item>Keserű likőr</item>
+        <item>Keserű likőr</item>
+        <item>Rum</item>
+        <item>Whisky</item>
+        <item>Gin</item>
+        <item>Likőr</item>
+        <item>Krém Likőr</item>
+        <item>Cuvée</item>
+        <item>Sör</item>
+        <item>Cuvée</item>
+        <item>Eperbor</item>
+        <item>Vodka</item>
+        <item>Whisky</item>
+        <item>Rum</item>
+        <item>Vegyifegyver</item>
+        <item>Energia ital</item>
+        <item>Tequila</item>
+        <item>Pezsgő</item>
+    </string-array>
+    <array name="drink_rates">
+        <item>5</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>2</item>
+        <item>4</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2.75</item>
+        <item>1.75</item>
+        <item>3.15</item>
+        <item>4.5</item>
+        <item>4</item>
+        <item>3.5</item>
+        <item>2.5</item>
+        <item>1.25</item>
+        <item>4.75</item>
+        <item>3.5</item>
+        <item>2.5</item>
+    </array>
+    <array name="drink_images">
+        <item>@drawable/jager</item>
+        <item>@drawable/unicum</item>
+        <item>@drawable/bacardi</item>
+        <item>@drawable/grants</item>
+        <item>@drawable/gin</item>
+        <item>@drawable/angelli</item>
+        <item>@drawable/baileys</item>
+        <item>@drawable/bodri</item>
+        <item>@drawable/bud</item>
+        <item>@drawable/dorombor</item>
+        <item>@drawable/eper</item>
+        <item>@drawable/vodka</item>
+        <item>@drawable/jack</item>
+        <item>@drawable/malibu</item>
+        <item>@drawable/matyas</item>
+        <item>@drawable/monster</item>
+        <item>@drawable/sierra</item>
+        <item>@drawable/torley</item>
+    </array>
+    <array name="drink_prices">
+        <item>4000 Q</item>
+        <item>3600 Q</item>
+        <item>7000 Q</item>
+        <item>4500 Q</item>
+        <item>5000 Q</item>
+        <item>2200 Q</item>
+        <item>3000 Q</item>
+        <item>1800 Q</item>
+        <item>380 Q</item>
+        <item>2500 Q</item>
+        <item>4900 Q</item>
+        <item>5700 Q</item>
+        <item>6000 Q</item>
+        <item>4000 Q</item>
+        <item>600 Q</item>
+        <item>500 Q</item>
+        <item>3500 Q</item>
+        <item>2500 Q</item>
+    </array>
+</resources>

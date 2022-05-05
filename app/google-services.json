@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "609923955843",
+    "project_id": "drunkshopapp",
+    "storage_bucket": "drunkshopapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609923955843:android:1aa84bc0a9ce05168f6fb6",
+        "android_client_info": {
+          "package_name": "com.example.drunkshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609923955843-hkkv976bcoblpduo7sk2ur26vtp19ijc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBf85RPRlxJBSHttGsDtbxcU9sVi_Qqkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609923955843-hkkv976bcoblpduo7sk2ur26vtp19ijc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
