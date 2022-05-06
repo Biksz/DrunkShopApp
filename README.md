@@ -58,6 +58,7 @@ Italos alkalmazás
 15, Legalább 2 komplex Firestore lekérdezés megvalósítása:
 - limit -> DashboardActivity
 - orderBy -> DashboardActivity
+- filterezés
 
 16: Szubjektív pontozás:
 - “¯\_(ツ)_/¯“
