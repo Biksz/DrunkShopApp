@@ -59,5 +59,5 @@ Italos alkalmazás
 - limit -> DashboardActivity
 - orderBy -> DashboardActivity
 
-16? Szubjektív pontozás:
+16: Szubjektív pontozás:
 - “¯\_(ツ)_/¯“
