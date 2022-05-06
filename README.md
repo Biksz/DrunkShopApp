@@ -28,7 +28,7 @@ Italos alkalmazás
 7, ConstraintLayout és még egy másik layout típus használata:
 - Constraint
 - Relative
-- Lineal
+- Linear
 
 8, Reszponzív:
 - többnyire :D
