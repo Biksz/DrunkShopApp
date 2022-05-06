@@ -54,10 +54,10 @@ public class RegActivity extends AppCompatActivity implements AdapterView.OnItem
         uAddress = findViewById(R.id.userAddress);
 
         prefs = getSharedPreferences(PREF, MODE_PRIVATE);
-        String name = prefs.getString("name", "");
+        String email = prefs.getString("email", "");
         String password = prefs.getString("password", "");
 
-        uName.setText(name);
+        uEmail.setText(email);
         uPassword.setText(password);
         uRePassword.setText(password);
 
@@ -71,18 +71,44 @@ public class RegActivity extends AppCompatActivity implements AdapterView.OnItem
 
     public void reg(View view) {
         String name = uName.getText().toString();
+
+        if(name.length() < 5){
+            Toast.makeText(RegActivity.this, "Túl rövid név", Toast.LENGTH_SHORT).show();
+            Log.e(LOG_TAG, "Tul rovid nev");
+            return;
+        }
+
         String email = uEmail.getText().toString();
         String password = uPassword.getText().toString();
+
+        if(password.length() < 6){
+            Toast.makeText(RegActivity.this, "Túl rövid jelszo", Toast.LENGTH_SHORT).show();
+            Log.e(LOG_TAG, "Tul rovid jelszo");
+        }
+
         String rePassword = uRePassword.getText().toString();
 
         if(!password.equals(rePassword)){
+            Toast.makeText(RegActivity.this, "Eltérő jelszavak", Toast.LENGTH_SHORT).show();
             Log.e(LOG_TAG, "Eltérő jelszavak");
             return;
         }
 
         String phone = uPhone.getText().toString();
+
+        if(phone.length() < 5){
+            Toast.makeText(RegActivity.this, "Túl rövid telószám", Toast.LENGTH_SHORT).show();
+            Log.e(LOG_TAG, "Tul rovid mobile");
+            return;
+        }
         String orderType = spinner.getSelectedItem().toString();
         String address = uAddress.getText().toString();
+
+        if(address.length() < 5){
+            Toast.makeText(RegActivity.this, "Túl rövid cím", Toast.LENGTH_SHORT).show();
+            Log.e(LOG_TAG, "Tul rovid address");
+            return;
+        }
 
         Log.i(LOG_TAG, "Sikeres regisztráció" + name + email + password + rePassword);
         auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {

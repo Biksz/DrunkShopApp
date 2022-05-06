@@ -15,7 +15,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
         android:ems="10"
-        android:hint="@string/name"
+        android:hint="@string/email"
         android:inputType="text"
         android:minHeight="48dp"
         tools:ignore="SpeakableTextPresentCheck" />

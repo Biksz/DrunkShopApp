@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     protected void onPause() {
         super.onPause();
         SharedPreferences.Editor edit = prefs.edit();
-        edit.putString("name", uName.getText().toString());
+        edit.putString("email", uName.getText().toString());
         edit.putString("password", uPassword.getText().toString());
         edit.apply();
     }

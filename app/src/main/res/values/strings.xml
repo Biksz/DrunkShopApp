@@ -20,6 +20,10 @@
     <string name="prodTitle">Termék név</string>
     <string name="deleteDrink">Törlés</string>
     <string name="spinMe">SPIN ME</string>
+    <string name="username_5lenght">Felhasználónév(min. 5 karakter)</string>
+    <string name="passw_6lenght">Jelszó(min. 6 karakter)</string>
+    <string name="mobile_5lenght">Telefonszám(min.5 karakter)</string>
+    <string name="address_5lenght">Cím(min.5 karakter)</string>
     <string-array name="order_types">
         <item>Várásló</item>
         <item>Viszonteladó</item>
